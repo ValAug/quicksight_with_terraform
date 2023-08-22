@@ -5,7 +5,7 @@ quicksight_with_terraform
 <h2><span style="color: #2B98F0;">Serverless AWS Cost Optimization</span></h2>
 </p>
 
-![quicksight].png)
+![quicksight](https://github.com/ValAug/quicksight_with_terraform/blob/main/QS-DIAGRAM.png)
 
 <p align="center">
   <img src="https://img.shields.io/badge/-AWS-000000?style=flat&logo=Amazon%20AWS&logoColor=FF9900" alt="AWS">
@@ -23,7 +23,7 @@ This GitHub repository highlights the prowess of Amazon QuickSight – your gate
 
 ## ⚡️ Prerequisites
 
-- **CreateDashboard API is supported only for enterprise users**
+- **To create this QuickSight dashboard using API you must have an enterprise user/users**
 - dashboard_id
 - name
 - version_description
