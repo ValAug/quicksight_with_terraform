@@ -54,7 +54,6 @@ terraform destroy --auto-approve
 ```bash
 - clone this Git repo
 - cd to the directory quicksight_with_terraform
-- copy __EC2_ID's__ from previous deployment and paste them each on __start.py__ and __stop.py__ place holders
 - use terraform __init__ command to initialize the Terraform working directory and to download plugins for a provider (aws)
 - terraform validate command will validate the code before the actual deployment
 - terraform plan command will show the execution code before making the actual deployment
