@@ -23,6 +23,7 @@ This GitHub repository highlights the prowess of Amazon QuickSight – your gate
 
 ## ⚡️ Prerequisites
 
+- **CreateDashboard API is supported only for enterprise users**
 - dashboard_id
 - name
 - version_description
