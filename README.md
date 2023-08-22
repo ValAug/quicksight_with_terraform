@@ -2,7 +2,7 @@
 quicksight_with_terraform
 
 <p align="center">
-<h2><span style="color: #2B98F0;">Serverless AWS Cost Optimization</span></h2>
+<h2><span style="color: #2B98F0;">Enterprise Quicksight Dashboard Deployment</span></h2>
 </p>
 
 ![quicksight](https://github.com/ValAug/quicksight_with_terraform/blob/main/QS-DIAGRAM.png)
