@@ -1,7 +1,8 @@
 # quicksight_with_terraform
 
 
-![Visitor Count](https://img.shields.io/github/watchers/ValAug/quicksight_with_terraform?label=Visitor%20Count)
+![Visitors](https://img.shields.io/github/watchers/ValAug/quicksight_with_terraform?label=Visitors&style=for-the-badge&color=blueviolet&labelColor=orange&logo=github)
+
 
 
 <p align="center">
