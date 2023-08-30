@@ -10,13 +10,19 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
 
       - name: Update README
         run: |
-        run: |
-        badge_url="https://img.shields.io/badge/Visitor-Count?style=social&label=VisitorCount&labelColor=abcdef&color=fedcba&cacheSeconds=3600=ValAug/quicksight_with_terraform"
-        sed -i "s#YOUR_BADGE_URL#$badge_url#g" README.md
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git commit -am "Update visitor count [skip ci]" || exit 0
-        git push
+          badge_url="https://img.shields.io/badge/Visitor-Count?style=social&label=VisitorCount&labelColor=abcdef&color=fedcba&cacheSeconds=3600=ValAug/quicksight_with_terraform"
+          sed -i "s#YOUR_BADGE_URL#$badge_url#g" README.md
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -am "Update visitor count [skip ci]" || exit 0
+          git push
