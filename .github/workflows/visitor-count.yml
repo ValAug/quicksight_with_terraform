@@ -1,0 +1,20 @@
+name: Update Visitor Count
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Update every hour
+
+jobs:
+  update_visitor_count:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Update README
+        run: |
+          sed -i "s/YOUR_BADGE_URL/$(curl -s https://img.shields.io/badge/Visitor-Count?style=social&label=VisitorCount&labelColor=abcdef&color=fedcba&cacheSeconds=3600=ValAug/quicksight_with_terraform)/g" README.md
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -am "Update visitor count [skip ci]" || exit 0
+          git push

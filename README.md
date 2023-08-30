@@ -1,6 +1,8 @@
 # quicksight_with_terraform
 quicksight_with_terraform
 
+![Visitor Count](https://img.shields.io/badge/Visitor-Count?style=social&label=VisitorCount&labelColor=abcdef&color=fedcba&cacheSeconds=3600)
+
 <p align="center">
 <h2><span style="color: #2B98F0;">Enterprise Quicksight Dashboard Deployment</span></h2>
 </p>
