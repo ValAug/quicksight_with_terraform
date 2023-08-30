@@ -13,11 +13,9 @@ jobs:
 
       - name: Update README
         run: |
-          badge_url="https://img.shields.io/badge/Visitor-Count?style=social&label=VisitorCount&labelColor=abcdef&color=fedcba&cacheSeconds=3600"
+          badge_url="https://img.shields.io/badge/Visitor-Count?style=social&label=VisitorCount&labelColor=abcdef&color=fedcba"
           sed -i "s#YOUR_BADGE_URL#$badge_url#g" README.md
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -am "Update visitor count [skip ci]" || exit 0
           git push
-
-# new-version
