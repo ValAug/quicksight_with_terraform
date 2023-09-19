@@ -1,4 +1,8 @@
-![You are Here](https://img.shields.io/github/watchers/ValAug/quicksight_with_terraform?label=You-are-Here&style=for-the-badge&color=blueviolet&labelColor=black&logo=github)
+<!-- retro visitor counter -->
+<p align="center"> 
+  <img src="https://profile-counter.glitch.me/quicksight_with_terraform/count.svg" />
+</p>
+
 # quicksight_with_terraform
 
 <p align="center">
